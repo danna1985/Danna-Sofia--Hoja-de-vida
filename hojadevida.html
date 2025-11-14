@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hoja de Vida — Danna Sofia Gómez</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#fffafa; /* very light pink */
+      --accent:#ff98c8; /* soft pink */
+      --accent-2:#7c6cf0; /* soft lavender */
+      --muted:#6b6b6b;
+      --card:#ffffff;
+      --glass: rgba(255,255,255,0.6);
+    }
+    *{box-sizing:border-box}
+    body{font-family:Poppins,system-ui,Arial; margin:0; background:linear-gradient(180deg,var(--bg),#fff); color:#222}
+    .container{max-width:1000px;margin:28px auto;padding:24px}
+    .card{background:var(--card);border-radius:18px;box-shadow:0 8px 30px rgba(120,100,140,0.08);overflow:hidden}
+
+    header{display:flex;gap:20px;padding:30px;background:linear-gradient(90deg, rgba(255,152,200,0.08), rgba(124,108,240,0.03));align-items:center}
+    .avatar{flex:0 0 130px;height:130px;border-radius:16px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:28px}
+    .header-info{flex:1}
+    h1{margin:0;font-size:26px}
+    .subtitle{margin-top:6px;color:var(--muted);font-weight:600}
+
+    .hero-desc{margin-top:12px;color:#444;font-size:15px;line-height:1.5}
+
+    .grid{display:grid;grid-template-columns: 1fr 320px;gap:24px;padding:28px}
+    @media(max-width:880px){.grid{grid-template-columns:1fr;padding:18px}.avatar{display:none}}
+
+    .section{margin-bottom:18px}
+    .section h2{margin:0 0 10px 0;font-size:16px;color:var(--accent-2)}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:var(--accent);color:white;font-weight:600;margin-right:8px;font-size:13px}
+
+    .list-item{padding:10px 0;border-bottom:1px dashed #eee}
+    .list-item:last-child{border-bottom:none}
+    .job-title{font-weight:600}
+    .muted{color:var(--muted);font-size:14px}
+
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill-pill{background:#fbf1f6;padding:8px 10px;border-radius:999px;font-weight:600;font-size:13px;color:#8b2b5e}
+
+    .lang-bar{background:#f2f2f2;border-radius:8px;height:10px;overflow:hidden}
+    .lang-fill{height:100%;border-radius:8px}
+
+    .right-column{padding:20px;background:linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.9));border-left:1px solid rgba(0,0,0,0.02)}
+    .contact-item{display:flex;gap:10px;align-items:center;margin-bottom:12px}
+    .contact-item svg{width:18px;height:18px;opacity:0.8}
+
+    footer{padding:18px 28px;background:linear-gradient(90deg, rgba(124,108,240,0.03), rgba(255,152,200,0.03));text-align:center;color:var(--muted);font-size:14px}
+
+    /* small helpers */
+    .small{font-size:13px;color:var(--muted)}
+    .project-tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+    .tag{background:#f7f3ff;padding:6px 8px;border-radius:8px;font-weight:600;color:var(--accent-2);font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <header>
+        <div class="avatar">JE</div>
+        <div class="header-info">
+          <h1>Danna Sofia Gómez <span class="small">— </span></h1>
+          <div class="subtitle"></div>
+          <p class="hero-desc">Soy una persona positiva, enfocada en el aprendizaje continuo y mi deseo de mejorar cada día.</p>
+        </div>
+      </header>
+
+      <section class="section">
+        <h2>Informacion Personal</h2>
+        
+        <div class="badge">NOMBRE:Danna Sofia Gómez</div>
+        <div class="badge">Ubicacion:Medellin</div>
+        <div class="badge">Correo:danna.sofia@gmail.com</div>
+
+        </div>
+       
+
+      <div class="grid">
+        <main>
+          <section class="section">
+            <h2>✨ Experiencia</h2>
+            <div class="list-item">
+              <div class="job-title">Tecnico en programacion de software</div>
+              <div class="muted"></div>
+              <p class="small">
+            </div>
+          
+            </div>
+          </section>
+
+          <section class="section">
+            <h2>🎓 Educación</h2>
+            <div class="list-item">
+
+                <p class="small">Bachiller en el Federico Carrasquilla</p>
+              <div class="muted">tecnico en programacion de software en el SENA</div>
+              
+            </div>
+          </section>
+
+         
+
+          <section class="section">
+            <h2>📂 Proyectos destacados</h2>
+            <div class="list-item">
+              <div class="job-title">pagina web de adopcion de mascotas de compañia</div>
+              
+              
+            </div>
+    
+    
+          </section>
+
+          <section class="section">
+            <h2>🌍 Idiomas</h2>
+            <div class="small">Español — Nativo</div>
+            <div style="margin:8px 0"><div class="lang-bar"><div class="lang-fill" style="width:100%;background:linear-gradient(90deg,var(--accent),var(--accent-2))"></div></div></div>
+
+           
+          </section>
+
+          <section class="section">
+            <h2>Certificados</h2>
+            <div class="badge">Tecnico en programacion de software</div>
+            <div class="badge">Desarrollo de software-vivero del software</div>
+           
+          </section>
+
+          
+           
+
+      <footer>
+       
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
